@@ -73,7 +73,7 @@ fig = plt.figure(figsize=(6, 4), frameon=False)
 
 # plot stability diagram
 plt.imshow(floquet, cmap='Reds', vmin=0.0, vmax=z, extent=[0,q0,-a0,a0], origin='lower')
-#plt.imshow(floquet, cmap='Blues', vmin=0.0, vmax=z, extent=[0,q0,-a0,a0], origin='upper', alpha=0.5)
+#plt.imshow(floquet, cmap='Blues', vmin=0.0, vmax=z, extent=[0,q0,-a0,a0], origin='upper', alpha=0.7)
 
 # plot driving curve
 #plt.plot(q,0.3*q, 'g-')
